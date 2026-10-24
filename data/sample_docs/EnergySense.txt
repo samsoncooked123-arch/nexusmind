@@ -1,0 +1,5 @@
+EnergySense is a building energy research project created by the Sustainable Systems Group.
+
+EnergySense uses Random Forest to predict daily electricity use from meter and weather measurements.
+
+EnergySense was evaluated on the Campus Energy dataset. The reports do not state a project budget.

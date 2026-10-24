@@ -1,0 +1,12 @@
+.conflict-section{margin:22px 0;padding:0 0 2px}
+.conflict-section .section-caption{color:#f3bc9d}
+.conflict-pair{border:1px solid #70574f;border-radius:10px;background:#2a252c;padding:14px;margin-bottom:12px}
+.conflict-pair>strong{font-size:12px;color:#f3dfd8;display:block;margin-bottom:12px}
+.claim-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:9px}
+.claim-card{display:block;text-align:left;border:1px solid #3e675a;background:#18352f;color:#e8f7ef;border-radius:8px;padding:12px}
+.claim-card.denies{border-color:#91565b;background:#432c33}
+.claim-card span{display:inline-block;font-size:9px;font-weight:800;letter-spacing:1.1px;color:#9fe8c3}
+.claim-card.denies span{color:#ffc0bd}
+.claim-card small{display:block;font-size:10px;color:#adc2c8;margin-top:5px}
+.claim-card p{font-size:11px;line-height:1.5;margin:10px 0 0;color:#e4eaf0}
+.claim-card:hover{filter:brightness(1.13)}

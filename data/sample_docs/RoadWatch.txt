@@ -1,0 +1,5 @@
+RoadWatch is a road-safety research project created by the Smart Mobility Lab.
+
+RoadWatch uses YOLOv8 to detect potholes and damaged road surfaces in camera images.
+
+RoadWatch was evaluated on the Campus Roads dataset. The evaluation measured detection accuracy on images collected around a university campus.

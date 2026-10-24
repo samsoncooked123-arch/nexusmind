@@ -1,0 +1,16 @@
+.env
+.env.local
+*.db
+*.db-shm
+*.db-wal
+__pycache__/
+.pytest_cache/
+.venv/
+node_modules/
+dist/
+*.tsbuildinfo
+data/uploads/
+data/chroma/
+data/neo4j/
+data/translation/
+

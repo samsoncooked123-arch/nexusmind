@@ -1,0 +1,20 @@
+{
+  "documents_requested": 500,
+  "statuses_after_ingestion": {
+    "ready": 500
+  },
+  "upload_seconds": 11.149,
+  "ingestion_seconds": 73.649,
+  "documents_per_minute": 407.34,
+  "sqlite_chunks": 500,
+  "chroma_chunks": 500,
+  "neo4j_graph_size": null,
+  "neo4j_error": "Couldn't connect to localhost:7687 (resolved to ('[::1]:7687', '127.0.0.1:7687')):\nFailed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)\nFailed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)",
+  "single_document_update_seconds": 0.307,
+  "single_document_delete_seconds": 0.048,
+  "old_chunk_removed_on_update": true,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "note": "Facts require human approval. This no-LLM benchmark measures document/chunk indexing; Neo4j size is unavailable without a running Neo4j service."
+}

@@ -1,0 +1,11 @@
+[
+  {"question":"Which method does RoadWatch use?","type":"direct_fact","expected":"YOLOv8","source":"RoadWatch.txt"},
+  {"question":"Which dataset did the project using YOLOv8 evaluate on?","type":"two_step_path","expected":"Campus Roads","source":"RoadWatch.txt"},
+  {"question":"What are the main themes across these reports?","type":"topics","expected":"Reviewed topic groups and their member documents","source":"Both sample reports"},
+  {"question":"What was RoadWatch's budget?","type":"missing_answer","expected":"insufficient evidence","source":null},
+  {"question":"Who created EnergySense?","type":"direct_fact","expected":"Sustainable Systems Group","source":"EnergySense.txt"},
+  {"question":"Which method does the Campus project use?","type":"ambiguous_name","expected":"Clarification or separate candidates when two projects share that name","setup":"Upload two different reports containing a same-named project"},
+  {"question":"Which method does RoadWatch use?","type":"contradictory_documents","expected":"Show both sourced claims when reports disagree","setup":"Upload a second RoadWatch report stating a different method"},
+  {"question":"Can text be extracted from the scanned report?","type":"scanned_pdf","expected":"OCR text with a page reference, or a visible OCR failure","setup":"Upload a scanned image-only PDF"},
+  {"question":"Upload RoadWatch.txt twice","type":"duplicate_upload","expected":"One document record and one set of chunks","setup":"Upload the exact same file bytes twice"}
+]
